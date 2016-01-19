@@ -40,7 +40,7 @@ Uruchamianie klienta HSQLDB z graficznym interfejsem użytkownika:
 4. Uruchom GlassFish:  
 `./scripts/startGlassFish.sh`
 5. Sprawdź połączenie z GlassFish:
- * otwórz w przeglądarce: `http://localhost:4848`
+ * otwórz w przeglądarce: [http://localhost:4848](http://localhost:4848)
  * z menu wybierz: Resources/JDBC/JDBC Connection Pools
  * kliknij: HSQLPool
  * kliknij przycisk Ping (powinien wyświetlić się komunikat: Ping Succeeded)
@@ -48,7 +48,7 @@ Uruchamianie klienta HSQLDB z graficznym interfejsem użytkownika:
 ## Hibernate
 
 1. Otwórz w przeglądarce:  
-`http://localhost:4848`
+[http://localhost:4848](http://localhost:4848)
 2. Z menu wybierz: Update Tool
 3. Znajdź i zaznacz Hibernate w tabeli Available Add-Ons
 4. Kliknij przycisk Install
@@ -60,10 +60,10 @@ Uruchamianie klienta HSQLDB z graficznym interfejsem użytkownika:
 1. Uruchom:  
 `./scripts/buildRedeploy.sh`
 2. Otwórz w przeglądarce:  
-`http://localhost:4848/mstore2`
+[http://localhost:8080/mstore2](http://localhost:8080/mstore2)
 
 ## Źródła
 
 Przy pisaniu projektu, korzystałem z repozytoriów:
- * dr Neumanna: [jeedemo](https://github.com/KubaNeumann/jeedemo), [restdemo](https://github.com/KubaNeumann/restdemo).
- * Łukasza Rybki: [introduction-to-jee-examples](https://github.com/Smoczysko/introduction-to-jee-examples/tree/master/jax-rs).
+ * dr Neumanna: [jeedemo](https://github.com/KubaNeumann/jeedemo), [restdemo](https://github.com/KubaNeumann/restdemo)
+ * Łukasza Rybki: [introduction-to-jee-examples/jax-rs](https://github.com/Smoczysko/introduction-to-jee-examples/tree/master/jax-rs)
